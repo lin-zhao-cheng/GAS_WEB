@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>小小兵留言板上稿系統</title>
+  </head>
+  <body>
+      <div class="cover">
+        <div class="spinner-border text-warning" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <div class="progress fixed-top h5 z1">
+        <div class="progress-bar bg-warning" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="container">
+
+        <header>
+            <img src="images/s1.png" alt="" class="img img1">
+            <img src="images/s2.png" alt="" class="img img2">
+            <img src="images/s3.png" alt="" class="img img3">
+            <img src="images/s4.png" alt="" class="img img4">
+        </header>
+        <nav>
+            <div class="btn btn-info btn-prev">上一頁</div>
+            <div class="btn btn-warning btn-send">送出</div>
+            <div class="btn btn-info btn-next">下一頁</div>
+        </nav>
+        <section>
+            <article id="article1" class="article1">
+                <h1>小小兵留言板上稿系統</h1>
+                <p>歡迎您使用留言板上稿系統，以下留言請不要涉及暴力、色情等不良內容，若有違規事件，將依法處置。
+                </p>
+                <div>感謝您的配合
+                </div>
+            </article>
+            <article id="article2" class="article2">
+                <div class="input-group mb-3 main-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" >姓名</span>
+                    </div>
+                    <input type="text" class="form-control" id="userName" name="userName" placeholder="必填" >
+                </div>    
+                <div class="main-group">
+                  <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">性別</span>
+                      </div>
+                      <div class="input-group-append flex-wrap flex-fill p-1 border border-left-0 rounded-lg workTypeRight">
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                  <input type="radio" id="userSex1" name="userSex" value="先生">
+                                </div>
+                              </div>
+                              <div class="input-group-text flex-fill d-block">
+                                <label class="d-block" for="userSex1">男性</label> 
+                              </div>
+                          </div>
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                  <input type="radio" id="userSex2" name="userSex" value="女士">
+                                </div>
+                              </div>
+                              <div class="input-group-text flex-fill d-block">
+                                <label class="d-block" for="userSex2">女性</label> 
+                              </div>
+                          </div>
+                      </div>
+                  </div>                  
+                </div>         
+
+                <div class="main-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">居住區域</span>
+                    </div>
+                    <div class="input-group-append flex-wrap flex-fill p-1 border border-left-0 rounded-lg workTypeRight">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <input type="radio" id="liveType1" name="liveType" value="北部地區">
+                              </div>
+                            </div>
+                            <div class="input-group-text flex-fill d-block">
+                               <label class="d-block" for="liveType1">北部地區</label> 
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <input type="radio" id="liveType2" name="liveType" value="中部地區">
+                              </div>
+                            </div>
+                            <div class="input-group-text flex-fill d-block">
+                               <label class="d-block" for="liveType2">中部地區</label> 
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <input type="radio" id="liveType3" name="liveType" value="南部地區">
+                              </div>
+                            </div>
+                            <div class="input-group-text flex-fill d-block">
+                               <label class="d-block" for="liveType3">南部地區</label> 
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <input type="radio" id="liveType4" name="liveType" value="東部地區">
+                              </div>
+                            </div>
+                            <div class="input-group-text flex-fill d-block">
+                               <label class="d-block" for="liveType4">東部地區</label> 
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <input type="radio" id="liveType5" name="liveType" value="離島地區">
+                              </div>
+                            </div>
+                            <div class="input-group-text flex-fill d-block">
+                               <label class="d-block" for="liveType5">離島地區</label> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="input-group mb-3 main-group">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="workType">職業類別</label>
+                    </div>
+                    <select class="custom-select" id="workType" name="workType">
+                      <option disabled selected value>請勾選您的職業類別</option>
+                      <option value="軍公教">軍公教</option>
+                      <option value="服務業">服務業</option>
+                      <option value="勞動業">勞動業</option>
+                      <option value="農林漁牧業">農林漁牧業</option>
+                      <option value="待業中">待業中</option>
+                      <option value="已退休">已退休</option>
+                      <option value="學生">學生</option>
+                    </select>
+                  </div>
+            </article>
+            <article id="article3" class="article3">
+                <div class="input-group mb-3 main-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">標題</span>
+                    </div>
+                    <input type="text" class="form-control" id="userTitle" name="userTitle" placeholder="必填" >
+                </div>
+                <label for="userNeed">留言內容</label>
+                <div class="main-group">
+                  <div class="main-group">
+                    <textarea class="form-control" name="userNeed" id="userNeed" cols="30" rows="10" placeholder="自由填寫"></textarea>
+                  </div>
+                </div>
+
+
+            </article>
+            <article id="article4" class="article4">
+                <div class="text ">感謝您提供寶貴的留言內容</div>
+                <div>
+                  <a href="./list.html"  type="button" class="btn btn-info W80 ">點我進入留言板</a>
+                </div>
+                
+            </article>
+        </section>
+        <footer></footer>
+      </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+<template id="tipTemplate01" style="display: none;">
+  <div class="tip">
+    <i class="fa fa-exclamation-circle"></i>
+    <span>這是一個必須要填的欄位</span>
+  </div>
+</template>
+</html>

@@ -1,0 +1,105 @@
+.h5{
+    height: 5px;
+}
+.z1{
+    z-index: 1;
+}
+.W80{
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.cover{
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    display: none;
+    place-items: center;
+}
+.container{
+    position: relative;
+    width: 728px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+nav{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+
+article{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+#article1{display: block;}
+.text{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.article4{
+margin-top: 100px;
+}
+.tip{
+    width: 100%;
+    color: red;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.bdr{
+    border: 1px solid red;
+    border-radius: 3px;
+}
+.img{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    margin-bottom: -600px;
+}
+.newPosi{
+    margin-bottom: 0;
+    transition: all 0.3s;
+}
+.img1{
+    width: 350px;
+    margin-right: 200px;
+}
+.img2{
+    width: 350px;
+    margin-right: 200px;
+}
+.img3{
+    width: 450px;
+    margin-right: 250px;
+}
+.img4{
+    width: 500px;
+    margin-right: 70px;
+}
+
+.workTypeRight{
+    width: calc(100% - 90px);
+}
